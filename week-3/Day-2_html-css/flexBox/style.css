@@ -1,0 +1,42 @@
+/*layouting*/
+/* flexbox */
+.navbar {
+    background: lightcoral;
+    flex-wrap: wrap;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+.kotak{
+    height: 80px;
+    background-color: lightcyan;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kotak1{
+    height: 80px;
+    background-color: skyblue;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.kotak2{
+    height: 80px;
+    background-color: lawngreen;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.kotak3{
+    height: 80px;
+    background-color: lightgreen;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}

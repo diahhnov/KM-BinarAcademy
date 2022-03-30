@@ -1,0 +1,12 @@
+HTTP: protokol yang menghubungkan kita/ jalur kita dengan server. (aplikasi) memakai get now playing ke HTTP (berupa url) lalu di salurkan ke tmdb tetep sama, tmdb memberikan respon jika ada datanya (200 <- ini status), jika tidak ada (404 <- ini status) .
+
+status di HTTP
+post; 201 artinya created, biasanya membuat register(USERNAME dan password).
+    //untuk membuat profile; firstname dan second name
+PUT === PATCH: untuk mengganti data yang sudah di post.
+delete: menggunakan key contoh id = 17; artinya key parameter. user?id=17; artinya ingin mendelete parameter 17.
+success: 200 (ambigu).
+badRequest: 400
+salah metode/salah url: 404
+
+HTTPS: (aplikasi) memberikan password nonono ke HTTP lalu di salurkan ke tmdb akan berubah menjadi keyword keyword aneh.

@@ -1,0 +1,7 @@
+headers di luar: dari server ke kita
+headers di dalam: dari kita ke server
+melihat history yang sudah dilakukan: di config dan ke method
+melihat update data: pada data dan ketauan apa yang kita lakukan dan riwayat jam dan waktu
+
+put atau patch: update yang sudah ada di server
+get: untuk mengambil yang sudah ada

@@ -1,0 +1,24 @@
+useState harus ada di function hooks atau function dalam komponen
+
+redux
+tools untuk memanage state, membagikan state untuk setiap komponen
+
+store
+berbentuk object, tempat penyimpanan lebih besar
+
+reducer
+tempat penyimpanan lebih spesifik
+
+action 
+setter untuk memberi nilai ke state pada reduccer atau dan store kita
+
+dispatch
+untuk merubah reducer, dg useDispatch
+const Dispatch = useDispatch
+onpress = (() =>
+
+state;
+...state adalah state yang terbaru
+... itu adalah render
+state === state ini samaaa 
+state === ...state samaa akan tetapi ...state adalah hal yang baru dari state
