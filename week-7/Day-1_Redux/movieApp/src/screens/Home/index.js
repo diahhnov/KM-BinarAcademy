@@ -21,7 +21,7 @@ export default function Home() {
   const Top_Rated = useSelector(state => state.Home.listTab[1]);
   const Now_Playing = useSelector(state => state.Home.listTab[2]);
   const dispatch = useDispatch();
-  const movieList = useSelector(state => state.movie.popular);
+  const movieList = useSelector(state => state.Home.popular);
 
   useEffect(() => {
     getPopularMovie('popular');

@@ -20,7 +20,7 @@ export default function Login({navigation}) {
       });
       console.log(res.status);
       if (res.status <= 201) {
-        navigation.navigate('Home');
+        navigation.navigate('Main');
       } else {
         return alert('ERROR!!!, wrong username or password');
       }
